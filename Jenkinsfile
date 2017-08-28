@@ -1,7 +1,7 @@
 #!groovy
   
-def project = 'chris_ricci'
-def appName = 'hello-world-instrumented'
+def project = 'richmd'
+def appName = 'helloworld'
 def feSvcName = "${appName}"
 def namespace = 'monitoring-demo'
 def imageTag = "quay.io/${project}/${appName}:v${env.BUILD_NUMBER}"
